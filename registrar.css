@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+header {
+    padding: 20px 4%;
+}
+header .logo img {
+    max-width: 200px;
+    height: auto;
+    display: block; 
+}
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header {
+    width: 100%;
+    padding: 20px 4%;
+    background-color: #000;
+    box-shadow: 0 0 20px #ffffff1d;
+}
+
+header .logo h1 {
+    color: #00FF08;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+section.register {
+    background-color: #242424;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ffffff1d;
+    max-width: 400px;
+    width: 100%;
+}
+
+section.register h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section.register form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section.register form label {
+    font-size: 18px;
+    color: #fff;
+}
+
+section.register form input {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3a3a3a;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+section.register form input::placeholder {
+    color: #999;
+}
+
+section.register form button {
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #00FF08;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
+section.register form button:hover {
+    box-shadow: 0px 0px 8px #00FF08;
+    transform: scale(1.05);
+}
+
+section.register p {
+    margin-top: 20px;
+    text-align: center;
+    color: #ccc;
+}
+
+section.register p a {
+    color: #00FF08;
+    text-decoration: none;
+    transition: .2s;
+}
+
+section.register p a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}

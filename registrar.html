@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar - Sky update</title>
+    <link rel="stylesheet" href="registrar.css">
+    <script defer src="login.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="logo projeto">
+            </div>
+        </nav>
+    </header>
+ 
+
+    <main>
+        <section class="register">
+            <h2>Registrar</h2>
+            <form data-form-type="register">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm-password">Confirme a Senha:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                
+                <button type="submit">Registrar</button>
+            </form>
+            <p>Já tem uma conta? <a href="login.html">Faça login aqui</a>.</p>
+        </section>
+    </main>
+</body>
+</html>
